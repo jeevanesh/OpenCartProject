@@ -2,36 +2,40 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T06:37:25 IST" name="Default suite" finished-at="2024-07-21T06:37:28 IST" duration-ms="3564">
+  <suite started-at="2024-07-21T18:24:31 IST" name="Default suite" finished-at="2024-07-21T18:24:37 IST" duration-ms="6393">
     <groups>
     </groups>
-    <test started-at="2024-07-21T06:37:25 IST" name="Default test" finished-at="2024-07-21T06:37:28 IST" duration-ms="3564">
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:25 IST" name="setup" finished-at="2024-07-21T06:37:28 IST" duration-ms="2685" status="PASS">
+    <test started-at="2024-07-21T18:24:31 IST" name="Default test" finished-at="2024-07-21T18:24:37 IST" duration-ms="6393">
+      <class name="com.qa.opencart.tests.AccountsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:31 IST" name="setup" finished-at="2024-07-21T18:24:36 IST" duration-ms="4781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:28 IST" name="forgotPwdLinkExistTest" finished-at="2024-07-21T06:37:28 IST" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:36 IST" name="accPageSetup" finished-at="2024-07-21T18:24:36 IST" duration-ms="749" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:28 IST" name="loginPageTitleTest" finished-at="2024-07-21T06:37:28 IST" duration-ms="15" status="PASS">
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accPageHeadersTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:36 IST" name="accPageHeadersTest" finished-at="2024-07-21T18:24:37 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:28 IST" name="loginPageURLTest" finished-at="2024-07-21T06:37:28 IST" duration-ms="27" status="PASS">
+        </test-method> <!-- accPageHeadersTest -->
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:37 IST" name="accPageTitleTest" finished-at="2024-07-21T18:24:37 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageURLTest -->
-        <test-method signature="loginTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:28 IST" name="loginTest" finished-at="2024-07-21T06:37:28 IST" duration-ms="517" status="PASS">
+        </test-method> <!-- accPageTitleTest -->
+        <test-method signature="accPageURLTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:37 IST" name="accPageURLTest" finished-at="2024-07-21T18:24:37 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@23202c31]" started-at="2024-07-21T06:37:28 IST" name="tearDown" finished-at="2024-07-21T06:37:28 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- accPageURLTest -->
+        <test-method signature="isLogoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:37 IST" name="isLogoutLinkExistTest" finished-at="2024-07-21T18:24:37 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLogoutLinkExistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.AccountsPageTest@2aeefcc]" started-at="2024-07-21T18:24:37 IST" name="tearDown" finished-at="2024-07-21T18:24:37 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+      </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
